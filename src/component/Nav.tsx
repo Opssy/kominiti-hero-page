@@ -1,18 +1,18 @@
 import React from "react";
 import Logo from "../images/logo.png";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 const Nav = () => {
   return (
     <div className="navigation">
       <div className="navigation__wrapper">
         <div className="navigation__wrapper--logo">
-         <NavLink to="/">
+         <Link to="/">
            <img src={Logo} alt="logo" />
-         </NavLink>
+         </Link>
         </div>
         <div></div>
         <div>
-          <NavLink to="">
+          <Link to="">
             Marketplace
             <svg
               width="22"
@@ -40,27 +40,27 @@ const Nav = () => {
                 stroke-width="0.5"
               />
             </svg>
-          </NavLink>
-          <NavLink to="/">
+          </Link>
+          <Link to="/">
             Jobs
-          </NavLink>
-          <NavLink to='/'>
+          </Link>
+          <Link to='/'>
             Forum
-          </NavLink>
-          <NavLink to="/">
+          </Link>
+          <Link to="/">
              Dashboard
-          </NavLink>
+          </Link>
         </div>
         <div>
             <div>
-               <NavLink to="/">
+               <Link to="/">
                   Sign in
-               </NavLink>
+               </Link>
             </div>
             <div>
-               <NavLink to="/">
+               <Link to="/">
                  Sign up 
-               </NavLink>
+               </Link>
             </div>
         </div>
       </div>
