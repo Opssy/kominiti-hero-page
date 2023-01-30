@@ -1,10 +1,10 @@
-import React from "react";
+import React,{Fragment} from "react";
 import Nav from "./Nav";
 const Header = () => {
     return(
-        <div>
+        <Fragment>
         <Nav/>
-        </div>
+        </Fragment>
     )
 }
 export default Header;
