@@ -6,14 +6,14 @@ const Nav = () => {
     <div className="navigation">
       <div className="navigation__wrapper">
         <div className="navigation__wrapper--logo">
-         <Link to="/">
+         <a href="/">
            <img src={Logo} alt="logo" />
-         </Link>
+         </a>
         </div>
         <div></div>
         <div>
-          <Link to="">
-            Marketplace
+          <a href="">
+            Marketplc
             <svg
               width="22"
               height="21"
@@ -40,27 +40,27 @@ const Nav = () => {
                 stroke-width="0.5"
               />
             </svg>
-          </Link>
-          <Link to="/">
+          </a>
+          <a href="/">
             Jobs
-          </Link>
-          <Link to='/'>
+          </a>
+          <a href='/'>
             Forum
-          </Link>
-          <Link to="/">
+          </a>
+          <a href="/">
              Dashboard
-          </Link>
+          </a>
         </div>
         <div>
             <div>
-               <Link to="/">
+               <a href="/">
                   Sign in
-               </Link>
+               </a>
             </div>
             <div>
-               <Link to="/">
+               <a href="/">
                  Sign up 
-               </Link>
+               </a>
             </div>
         </div>
       </div>
